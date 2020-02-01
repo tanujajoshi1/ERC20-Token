@@ -14,10 +14,13 @@ account : 0x1165bd5F770F78D67718A0f97BbF12cD29e3a300
  truffle compile --network rinkeby
  truffle migrate --network rinkeby 
  
- Step 3: After successfully deploying your smart contract , open truffle console
+ Step 3: After successfully deploying your smart contract ,visit etherscan.io 
+         Copy your contract address and paste it on etherscan. Now you can view the transactions, history , amount etc of your          contract
+ 
+ Step4:
  truffle console
  
- Step 4: View the functions of your contract and access them
+ Step 5: View the functions of your contract and access them
  let x= await x.ExampleToken.deployed()
  x.<tab>
  x.function_name()
