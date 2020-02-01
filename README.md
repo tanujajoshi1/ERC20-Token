@@ -15,7 +15,7 @@ account : 0x1165bd5F770F78D67718A0f97BbF12cD29e3a300
  truffle migrate --network rinkeby 
  
  Step 3: After successfully deploying your smart contract ,visit etherscan.io 
-         Copy your contract address and paste it on etherscan. Now you can view the transactions, history , amount etc of your          contract
+         Copy your contract address and paste it on etherscan. Now you can view the transactions, history , amount etc of your contract
  
  Step4:
  truffle console
@@ -24,7 +24,8 @@ account : 0x1165bd5F770F78D67718A0f97BbF12cD29e3a300
  let x= await x.ExampleToken.deployed()
  x.<tab>
  x.function_name()
- If you wish to check the total supply in your contract, " x.totalSupply() " , will give you a hex vale which won't be readable. Therefore we use the following command
+ If you wish to check the total supply in your contract, " x.totalSupply() " , 
+ will give you a hex vale which won't be readable. Therefore we use the following command
  x.totalSupply().then(l=> l.toString())
  
  
